@@ -43,7 +43,7 @@ class QrgenComponent {
     }
 }
 QrgenComponent.ɵfac = function QrgenComponent_Factory(t) { return new (t || QrgenComponent)(); };
-QrgenComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: QrgenComponent, selectors: [["app-qrgen"]], decls: 19, vars: 17, consts: [[1, "container"], [1, "row", "pb-5"], [1, "col-12"], ["type", "text", "placeholder", "text", 1, "text", "text-center", 3, "ngModel", "ngModelChange"], [1, "row", "pb-4"], [1, "col-12", "col-sm-6", "pb-5", "pb-sm-0", "text-center", "my-auto"], [1, "d-flex", "justify-content-center", "pb-5"], [1, "cpicker", "mr-4", 3, "colorPicker", "cpWidth", "colorPickerChange"], [1, "cpicker", 3, "colorPicker", "colorPickerChange"], ["id", "dllink", 3, "href", "download"], [1, "col-12", "col-sm-6", "text-center", "my-auto"], [3, "elementType", "qrdata", "width", "errorCorrectionLevel", "colorDark", "colorLight", "margin"], [1, "row"], ["href", "https://jaymakwana.ml"]], template: function QrgenComponent_Template(rf, ctx) { if (rf & 1) {
+QrgenComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: QrgenComponent, selectors: [["app-qrgen"]], decls: 19, vars: 18, consts: [[1, "container"], [1, "row", "pb-5"], [1, "col-12"], ["type", "text", "placeholder", "text", 1, "text", "text-center", 3, "ngModel", "ngModelChange"], [1, "row", "pb-4"], [1, "col-12", "col-sm-6", "pb-5", "pb-sm-0", "text-center", "my-auto"], [1, "d-flex", "justify-content-center", "pb-5"], [1, "cpicker", "mr-4", 3, "colorPicker", "cpPosition", "colorPickerChange"], [1, "cpicker", 3, "colorPicker", "cpPosition", "colorPickerChange"], ["id", "dllink", 3, "href", "download"], [1, "col-12", "col-sm-6", "text-center", "my-auto"], [3, "elementType", "qrdata", "width", "errorCorrectionLevel", "colorDark", "colorLight", "margin"], [1, "row"], ["href", "https://jaymakwana.ml"]], template: function QrgenComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "QRGen");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -85,10 +85,10 @@ QrgenComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.data);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("background", ctx.colorD);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("colorPicker", ctx.colorD)("cpWidth", 200);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("colorPicker", ctx.colorD)("cpPosition", "bottom");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("background", ctx.colorL);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("colorPicker", ctx.colorL);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("colorPicker", ctx.colorL)("cpPosition", "bottom");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", ctx.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("download", "", ctx.data, ".jpg");
